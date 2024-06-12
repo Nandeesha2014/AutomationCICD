@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="nandeeshFrameWork.SeleniumFrameWorkDesign.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="loginErrorValidationTest(failed)" verbose="0">
+    <classes>
+      <class name="nandeeshFrameWork.SeleniumFrameWorkDesign.Tests.loginErrorValidationsTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- nandeeshFrameWork.SeleniumFrameWorkDesign.Tests.loginErrorValidationsTest -->
+    </classes>
+  </test> <!-- loginErrorValidationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
